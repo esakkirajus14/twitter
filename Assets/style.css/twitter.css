@@ -1,11 +1,14 @@
-#body{
-    height: 1500px;
+body{
+     overflow-x:hidden ;
+    
+    
+    
 }
 #a1{
     background-color: blanchedalmond;
     padding: 10px;
     border-radius: 20px;
-    height: 600px;
+    height: 800px;
 }
 #a>p{
     color: rgb(6, 155, 255);
@@ -39,6 +42,9 @@
     width: 100px;
     padding: 10px;
 }
+/* #t1{
+    position: relative;
+}
 #d{
     font-size: 40px;
     display: inline;
@@ -50,9 +56,9 @@
     top: 40px;
 }
 #f{
-    float:right;
-    position: relative;
-    bottom: 200px;
+    left: 900px;
+    position: absolute;
+    bottom: -250px;
 
 }
 #g{background-color:rgb(6, 155, 255) ;
@@ -62,17 +68,505 @@
     cursor: pointer;
     position: relative;
     top: 60px;
+    display: inline;
+}
+#h{
+    position: relative;
+    left: 200px;
+    top: 20px;
+    text-decoration: none;
+}
+#i{
+    position: relative;
+    left: 200px;
+    top: 30px;
+} */
+
+
+
+#D2{
+    margin-top: 100px;
+    width: 500px;
+    position: relative;
+    
 }
 
 
+#D2S1 > h1{
+    font-size: 40px;
+   
+
+}
+
+#Sign_Btn_Container {
+    position: relative;
+}
+
+#Sign_Btn_Container > button{
+    background: rgb(52, 152, 192);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 170px;
+    text-indent: 15px;
+    
+
+}
+
+#Sign_Btn_Container > img{
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    margin-left: 7px;
+}
+
+#Sign_Btn_Container > a{
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+#D2S2{
+    width: 400px;
+    position: absolute;
+    top: 25px;
+    left: 800px;
+
+}
+#D2S2 > img{
+    width: inherit;
+
+}
+#y{
+    font-size: 30px;
+}
+#r{
+    position: relative;
+}
+#j>h6{
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+}
+#j>p{
+    position: relative;
+    bottom: 70px;
+}
+#u{
+    position: absolute;
+    left: 700px;
+    top: 350px;
+}
+#u>h6{
+    font-size: 20px;
+    position: relative;
+    bottom: 415px;
+}
+#u>img{
+    position: relative;
+    bottom: 370px;
+}
+#u>p{
+    position: relative;
+    bottom: 440px;
+    
+}
+#e1>h6{
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
+}
+#e1>img{
+    position: relative;
+    bottom: 30px;
+}
+#e1>p{
+    position: relative;
+    bottom: 80px;
+}
+
+#e2>h6{
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+#e2>p{
+    position: relative;
+    bottom: 50px;
+}
+#e2>img{
+    position: relative;
+    top: 20px;
+}
+#e2{
+    position: absolute;
+    left: 700px;
+    bottom: 25px;
+}
+#f1{
+    background-color: aqua;
+    position: relative;
+    width: 1310px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 400px;
+}
+#f1>h3{
+    font-size: 30px;
+}
+#f2{
+    
+    background-color: white;
+    width: 300px;
+    height: 180px;
+}
+#f2>img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#f2>h4{
+    position: relative;
+    left: 65px;
+    bottom: 55px;
+}
+#f2>p{
+    position: relative;
+    left: 70px;
+    bottom: 75px;
+}
+#f3>img{
+    position: relative;
+    left: 250px;
+    bottom: 130px;
+}
+#f3>p{
+    position: relative;
+    bottom: 110px;
+    left: 10px;
+}
+#f4>img{
+    position: relative;
+    bottom: 120px;
+    left: 10px;
+}
+#f4>h6{
+    position: relative;
+    bottom: 165px;
+    left: 35px;
+}
+#f4>p{
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+#s1{
+    position: absolute;
+    left: 340px;
+    bottom: 70px;
+    background-color: white;
+    width: 380px;
+    height: 250px;
+}
+#s1>img{
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+#s1>h4{
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+}
+#s1>p{
+    position: relative;
+    left: 60px;
+    bottom: 65px;
+}
+#s2>img{
+    position: relative;
+    left: 320px;
+    bottom: 120px;
+}
+#s2>p{
+    position: relative;
+    left: 10px;
+    bottom: 90px;
+}
+#s3>img{
+    position: relative;
+    left: 10px;
+    bottom: 90px;
+}
+#s3>h6{
+    position: relative;
+    left: 35px;
+    bottom: 135px;
+}
+#s3>p{
+    position: relative;
+    left: 260px;
+    bottom: 170px;
+}
+
+
+
+
+
+#random{
+
+width: 300px;
+height: 200px;
+background-color: rgb(248, 245, 245);
+position: relative;
+bottom: 150px;
+left: 800px;
+}
+#random>img{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#random>h4{
+    position: relative;
+    left: 65px;
+    bottom: 60px;
+}
+#random>p{
+    position: relative;
+    left: 65px;
+    bottom: 79px;
+}
+#random1>img{
+    position: relative;
+    left: 250px;
+    bottom: 125px;
+}
+#random1>p{
+    position: relative;
+    left: 10px;
+    bottom: 120px;
+}
+#random2>img{
+    position: relative;
+    left: 10px;
+    bottom: 120px;
+}
+#random2>h6{
+    position: relative;
+    left: 30px;
+    bottom: 160px;
+}
+#random2>p{
+    position: relative;
+    left: 170px;
+    bottom: 200px;
+}
+#one>h2{
+    position: relative;
+    left: 550px;
+}
+#one>p{
+    position: relative;
+    
+    text-align-last: center;
+}
+#box{
+    background-color: rgb(247, 215, 177);
+    width: 330px;
+    height: 450px;
+    left: 490px;
+    position: relative;
+    box-shadow: 3px -1px 0px 0px orange;
+    
+}
+#box>p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+#box>h4{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+#m{
+    position: relative;
+    left: 20px;
+}
+#check1>p{
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+#check2>p{
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+
+}
+#check3>p{
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+#Sign > button{
+    background: rgb(52, 152, 192);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 170px;
+    text-indent: 10px;
+    left: 50px;
+    position: relative;
+}
+
+
+
+
+
 @media all and (max-width:500px) {
+
+
+
+#random{
+
+width: 300px;
+height: 200px;
+background-color: rgb(238, 235, 235);
+left: 10px;
+top: 500px;
+width: 350px;
+
+}
+#random>img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#box{
+    left: 15px;
+    top: 50px;
+}
+#one>h2{
+left: 60px;
+position: relative;
+}
+
+
+
     #a > #b{
         display: none;
 
     }
+    #D2S2{
+        position: relative;
+        left: 1px;
+        width: 350px;
+
+    }
+    #D2S1{
+        font-size: 15px;
+        width: 350px;
+    }
+    #a1{
+        background-color: blanchedalmond;
+        padding: 10px;
+        border-radius: 20px;
+        height: 1200px;
+        
+
+    }
+    #r{
+        position: relative;
+        top: 20px;
+    }
+    #j>p{
+        font-size: 20px;
+    }
+    #u{
+        position: relative;
+        left: 2px;
+    
 }
+    #u>img{
+        position: relative;
+        bottom:  410px;
+    }
+    #u>h6{
+        position: relative;
+        bottom: 450px;
+    }
+    #u>p{
+        position: relative;
+font-size: 20px;
+bottom: 480px;
+    }
+    #e1{
+        position: relative;
+        bottom: 100px;
+    }
+    #e1>p{
+        font-size:18px ;
+
+    }
+    #e2{
+        position: relative;
+        left: 10px;
+        bottom: 200px;
+    }
+    #e2>p{
+        font-size: 20px;
+
+    }
+    #f1{
+        position: relative;
+        left: 5px;
+        height: 900px;
+        width: 450px;
+    
+    }
+    #f2{
+        position: absolute;
+        left: 15px;
+        width: 350px;
+    }
+    #s1{
+        position: absolute;
+        left: 15px;
+        bottom:350px;
+        width: 390px;
+    }
+    #s2>img{
+        position: relative;
+        left: 250px;
+    }
+    #s3>p{
+        position: relative;
+        left: 200px;
+    }
+    
+}
+
+
 @media all and (min-width:500px) {
     #c > #c1{
         display: none;
     }
+
+}
+@media screen and( max-width:500px) {
+    /* #t1{
+        position: relative;
+        display: inline;
+        
+    }
+    #f{
+        position: absolute;
+        left: 100px;
+    } */
+
+       
+    
 }
